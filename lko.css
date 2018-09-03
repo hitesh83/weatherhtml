@@ -1,0 +1,57 @@
+﻿
+
+html {
+;
+}
+
+body {
+  padding: 0px 0;
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   background-image: url("frooti2.jpg");
+    background-color: #cccccc;
+	background-repeat: no-repeat;
+}
+
+#lko {
+ color: #fff;
+  font-family: Helvetica, Arial;
+  font-size: 10px;
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  color: #fff;
+  font-family: weather;
+  font-size: 30px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1.0;
+  text-transform: none;
+}
+.top {
+  margin: 50px 10px 100px 10px;
+  color: #000;
+  font-size: 100px;
+  font-weight: bold;
+  text-align: left;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+
+#weather h2 {
+  margin: 0 10px 8px 10px;
+  color: #000;
+  font-size: 120px;
+  font-weight: 3000;
+  text-align: left;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
+
+.top {
+  margin: 0 10px 8px 10px;
+  color: #fff;
+  font-size: 120px;
+  font-weight: 3000;
+  text-align: left;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
+}
