@@ -1,6 +1,6 @@
 #!/bin/sh
 (ansiweather -l pune,IND -u metric -a off |awk '{print $6}')  > /home/adspl/pune.t
-(ansiweather -l pune,IND -u metric -a off |awk '{print $6,$7}')  | sed -e 's/ //g' > /var/www/html/pune.txt
+(ansiweather -l pune,IND -u metric -a off |awk '{print $6,$7}')  | sed -e 's/ //g' > /var/www/html/temp.txt
 input="/home/adspl/pune.t"
 limit="29"
 while IFS= read -r pune
